@@ -6,6 +6,7 @@ export default defineNuxtConfig({
   app: {
     baseURL: "/init-apo-quiz",
     head: {
+      title: "Quiz Initiation APO",
       link: [{
         rel: 'stylesheet',
         href: 'https://cdn.simplecss.org/simple.min.css'
