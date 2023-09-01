@@ -1,5 +1,5 @@
 <template>
-  <Host next="/objet" prev="">
+  <Host next="/objet" prev="/">
     <Increment></Increment>
   </Host>
 </template>

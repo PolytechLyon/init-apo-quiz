@@ -8,7 +8,7 @@
         <header>
             <NuxtLink :href="props.prev">Précédent</NuxtLink>
             <NuxtLink v-if="!props.hideHome" href="/">Contenu</NuxtLink>
-            <NuxtLink :href="props.next">Prochain</NuxtLink>
+            <NuxtLink :href="props.next">Suivant</NuxtLink>
         </header>
         <slot></slot>
     </main>
