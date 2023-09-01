@@ -6,15 +6,19 @@
             <p>Les exercices suivants peuvent vous guider dans la décision de suivre ou non les cours Initiation APO.</p>
         </section>
         <header>
-            <NuxtLink :href="props.prev">Précédent</NuxtLink>
-            <NuxtLink v-if="!props.hideHome" href="/">Contenu</NuxtLink>
-            <NuxtLink :href="props.next">Suivant</NuxtLink>
+            <menu>
+                <NuxtLink :href="props.prev">Précédent</NuxtLink>
+                <NuxtLink v-if="!props.hideHome" href="/">Contenu</NuxtLink>
+                <NuxtLink :href="props.next">Suivant</NuxtLink>
+            </menu>
         </header>
         <slot></slot>
         <footer>
-          <NuxtLink :href="props.prev">Précédent</NuxtLink>
-          <NuxtLink v-if="!props.hideHome" href="/">Contenu</NuxtLink>
-          <NuxtLink :href="props.next">Suivant</NuxtLink>
+            <menu>
+                <NuxtLink :href="props.prev">Précédent</NuxtLink>
+                <NuxtLink v-if="!props.hideHome" href="/">Contenu</NuxtLink>
+                <NuxtLink :href="props.next">Suivant</NuxtLink>
+            </menu>
         </footer>
     </main>
 </template>
