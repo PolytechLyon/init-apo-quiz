@@ -5,7 +5,7 @@ iframe {
     overflow:hidden;
 }
 
-header {
+header, footer {
     display: flex;
     justify-content: space-between;
 }
