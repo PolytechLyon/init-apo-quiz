@@ -14,5 +14,3 @@
           </Summary>
       </section>
 </template>
-<script setup lang="ts">
-</script>
