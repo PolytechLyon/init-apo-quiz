@@ -7,7 +7,7 @@
                 <li>Erreur d'execution.</li>
                 <li>Succès.</li>
             </ul>
-            <p>Dans le cas de sccuès, quel sera l'affichae sur la sortie standard&nbsp;?</p>
+            <p>Dans le cas de succès, quel sera l'affichage sur la sortie standard&nbsp;?</p>
             <iframe src="https://www.jdoodle.com/iembed/v0/LtU?stdin=0&args=0" scrolling="no"></iframe>
             <iframe src="https://www.jdoodle.com/iembed/v0/LtT?stdin=0&args=0" scrolling="no"></iframe>
             <iframe src="https://www.jdoodle.com/iembed/v0/Lu4?stdin=0&args=0" scrolling="no"></iframe>
